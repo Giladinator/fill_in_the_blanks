@@ -59,7 +59,7 @@ def user_selection(user_input,levels):
 
 
 def answer_checker(user_input,answer):
-	# Returns user input if the answer is correct 
+	# Returns user input if the answer is correct and None if the answer is wrong
 	if user_input.lower() == answer:
 		return user_input
 	else:
